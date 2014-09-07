@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf-model",
+  "version": "0.0.0",
+  "description": "Save your models in a central location so that you can refer them easily instead of having to require it every time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andresz1/bookshelf-model"
+  },
+  "keywords": [
+    "bookshelf",
+    "model",
+    "models",
+    "plugin"
+  ],
+  "author": "Andres Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andresz1/bookshelf-model/issues"
+  },
+  "homepage": "https://github.com/andresz1/bookshelf-model"
+}
