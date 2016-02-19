@@ -1,6 +1,6 @@
 ## bookshelf-model
 
-Save your models in a central location so that you can refer them easily instead of having to require it every time and helps deal with the challenges of circular module dependencies in Node.
+Save your models in a central location so that you can refer them easily instead of having to require it every time and helps deal with the challenges of circular module dependencies in [Node.js](https://nodejs.org/en/).
 
 ### Usage
 
@@ -45,12 +45,12 @@ app.locals.models = models;
 //...
 ```
 
-The model's name is taken from the file's name, if your file is named `user.js` the model's name will be `User`. To separate words of a file's name you must use `sneake_case` and the model's name wil be in `PascalCase` (E.g: `police_officer` -> `PoliceOfficer`)
+The model's name is taken from the file's name, if your file is named `user.js` the model's name will be `User`. To separate words of a file's name you must use `sneake_case` and the model's name wil be in `PascalCase` (e.g: `police_officer` -> `PoliceOfficer`).
 
 ### Feedback
 
-Pull requests, feature ideas and bug reports are welcome
+Pull requests, feature ideas and bug reports are welcome.
 
 ### License
 
-MIT
+MIT.
