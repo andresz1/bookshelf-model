@@ -2,7 +2,7 @@
 
 Save your models in a central location so that you can refer them easily instead of having to require it every time and helps deal with the challenges of circular module dependencies in Node.
 
-### Usage:
+### Usage
 
 You must define your models as this:
 
@@ -47,10 +47,10 @@ app.locals.models = models;
 
 The model's name is taken from the file's name, if your file is named `user.js` the model's name will be `User`. To separate words of a file's name you must use `sneake_case` and the model's name wil be in `PascalCase` (E.g: `police_officer` -> `PoliceOfficer`)
 
-### Feedback:
+### Feedback
 
 Pull requests, feature ideas and bug reports are welcome
 
-### License:
+### License
 
 MIT
