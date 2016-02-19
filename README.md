@@ -31,7 +31,7 @@ module.exports = function(bookshelf) {
 In your main app.js file simply call the helper (the first parameter is the bookshelf object and the second one is the directory where your models are):
 
 ```javascript
-//...
+// ...
 
 var knex = require('knex')(dbConfig.development),
     bookshelf = require('bookshelf')(knex),
@@ -42,7 +42,7 @@ var models = bookshelfModel(bookshelf, __dirname + '/models');
 // if you are using express you should do this
 app.locals.models = models;
 
-//...
+// ...
 ```
 
 The model's name is taken from the file's name, if your file is named `user.js` the model's name will be `User`. To separate words of a file's name you must use `sneake_case` and the model's name wil be in `PascalCase` (e.g: `police_officer` -> `PoliceOfficer`).
